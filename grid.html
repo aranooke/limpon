@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            display: block;
+            text-transform: uppercase;
+            color:blue;
+        }
+       h3 {
+           color:blue;
+       }
+       .grid-item p {
+           max-width: 250px;
+       }
+       .page-grid { 
+           display: grid;
+           grid-template-areas:"a b c"
+                                "d b c"
+                                "d f h"
+                                "e f h"
+                                "e t t";
+         
+       }
+       .grid-img {
+           display: block;
+           height: 100px;
+           width:100px;
+           background-repeat:no-repeat;
+       }
+       .grid-item {
+           
+       }
+       .grid-title {
+           grid-area:"a";
+       }
+       .grid-item1 {
+           grid-area:"b";
+       }
+       .grid-item2 {
+           grid-area:"c";
+       }
+       .grid-item3 {
+           grid-area:"d";
+       }
+       .grid-item4 {
+           grid-area:"f";
+       }
+       .grid-item5 {
+           grid-area:"h";
+       }
+       .grid-item6 {
+           grid-area:"e";
+       }
+
+       .grid-text {
+           grid-area:"t";
+       }
+       .grid-img1 {
+           background-image: url("img/firstobj.png");
+           
+       }
+       .grid-img2 {
+            background-image: url("img/secondobject.png");
+       }
+
+       .grid-img3 {
+           background-image: url("img/thidobj.png");
+           
+       }
+       .grid-img4 {
+           background-image: url("img/Fourobj.png");
+           
+       }
+       .grid-img5 {
+           background-image: url("img/fifthobj.png");
+           
+       }
+       .grid-img6 {
+           background-image: url("img/firstobj.png");
+           
+       }
+    </style>
+</head>
+<body>
+    <div class="page-grid">
+        <div class="grid-item grid-title">
+            <h2><span>Features</span>Best Features
+                Ever Seen</h2>
+            
+        </div>
+        <div class="grid-item grid-item1">
+            <div class="grid-img grid-img1"></div>
+            <h3 class = "grid-h3">Well documented</h3>
+            <p>Lorem ipsum dolor sit amet, conse
+                ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+            <a href="">Read more</a>
+        </div>
+
+        <div class="grid-item grid-item2">
+            <div class="grid-img grid-img2"></div>
+            <h3 class = "grid-h3">Well documented</h3>
+            <p>Lorem ipsum dolor sit amet, conse
+                ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+            <a href="">Read more</a>
+        </div>
+
+        <div class="grid-item grid-item3">
+            <div class="grid-img grid-img3"></div>
+            <h3 class = "grid-h3">Well documented</h3>
+            <p>Lorem ipsum dolor sit amet, conse
+                ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+            <a href="">Read more</a>
+        </div>
+
+        <div class="grid-item grid-item4">
+            <div class="grid-img grid-img4"></div>
+            <h3 class = "grid-h3">Well documented</h3>
+            <p>Lorem ipsum dolor sit amet, conse
+                ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+            <a href="">Read more</a>
+        </div>
+
+        <div class="grid-item grid-item5">
+            <div class="grid-img grid-img5"></div>
+            <h3 class = "grid-h3">Well documented</h3>
+            <p>Lorem ipsum dolor sit amet, conse
+                ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+            <a href="">Read more</a>
+        </div>
+        <div class="grid-item grid-item6">
+            <div class="grid-img grid-img6"></div>
+            <h3 class = "grid-h3">Well documented</h3>
+            <p>Lorem ipsum dolor sit amet, conse
+                ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+            <a href="">Read more</a>
+        </div>
+        <div class="grid-item grid-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h3>Rosalina Pong <span>- invester</span></h3>
+        </div>
+    </div>
+
+    
+</body>
+</html>
